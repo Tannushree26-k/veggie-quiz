@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7fff5;
+  padding: 20px;
+  margin: 0;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+.question {
+  margin-top: 20px;
+}

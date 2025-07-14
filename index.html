@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Veggie Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="quiz-title">Where Did Your Veggies Come From?</h1>
+
+    <!-- Language Switch -->
+    <div id="language-switch">
+      <button onclick="switchLanguage('en')">English</button>
+      <button onclick="switchLanguage('hi')">हिंदी</button>
+      <button onclick="switchLanguage('te')">తెలుగు</button>
+    </div>
+
+    <!-- Quiz Area -->
+    <div id="quiz-container"></div>
+
+    <!-- Result -->
+    <div id="result" style="display:none;"></div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
